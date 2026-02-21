@@ -1,0 +1,23 @@
+{
+  "name": "openbridge-ucp-demo",
+  "version": "1.0.0",
+  "description": "openBridge UCP Commerce Network - ETHDenver 2026 Demo",
+  "type": "module",
+  "scripts": {
+    "fix-key": "node scripts/fix-key.js",
+    "setup": "node scripts/setup-topics.js",
+    "oracle": "node src/oracle-node.js",
+    "agent-alice": "node src/agent-alice.js",
+    "agent-bob": "node src/agent-bob.js",
+    "matcher": "node src/matching-engine.js",
+    "demo": "node src/demo-runner.js",
+    "monitor": "node src/monitor.js"
+  },
+  "dependencies": {
+    "@hashgraph/sdk": "^2.46.0",
+    "dotenv": "^16.3.1",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "boxen": "^7.1.1"
+  }
+}
