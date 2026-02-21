@@ -32,8 +32,8 @@ Create an account → you get a free Account ID + key with testnet HBAR.
 
 ### 2. Clone and install
 ```bash
-git clone https://github.com/mudaser/openbridge-ucp
-cd openbridge-ucp
+git clone [https://github.com/mudaser/openbridge-ucp](https://github.com/mudaseriqbalshah/agora.oracle.git)
+cd agora.oracle
 npm install
 ```
 
